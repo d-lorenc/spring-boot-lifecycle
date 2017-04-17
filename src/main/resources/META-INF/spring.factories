@@ -1,0 +1,7 @@
+# Application Context Initializers
+org.springframework.context.ApplicationContextInitializer=\
+me.lorenc.springboot.lifecycle.factory.SpringFactoryApplicationContextInitializer
+
+# Environment Post Processors
+org.springframework.boot.env.EnvironmentPostProcessor=\
+me.lorenc.springboot.lifecycle.factory.SpringFactoryEnvironmentPostProcessor
